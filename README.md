@@ -2,8 +2,6 @@
 
 A modern, glassmorphic dark-themed personal portfolio website showcasing my background in cybersecurity, backend engineering experience at DBS Bank, projects, education, and co-curricular activities.
 
-**Live Demo:** [terron.dev](https://terron.dev)
-
 ## 🎨 Features
 
 A fully responsive, single-page portfolio application built with modern web technologies. It features:
