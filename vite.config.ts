@@ -151,7 +151,7 @@ function vitePluginManusDebugCollector(): Plugin {
 
 const plugins = [react(), tailwindcss(), vitePluginManusRuntime(), vitePluginManusDebugCollector()];
 export default defineConfig({
-  base: "/terron-portfolio/",
+  base: "/MyPortfolio/",
   plugins,
   resolve: {
     alias: {
