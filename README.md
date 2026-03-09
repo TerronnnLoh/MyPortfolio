@@ -36,38 +36,6 @@ A fully responsive, single-page portfolio application built with modern web tech
 - **TypeScript** — Static type checking
 - **Prettier** — Code formatter for consistent style
 
-## 🚀 Getting Started
-
-### Prerequisites
-- Node.js 18+ installed
-- pnpm or npm package manager
-
-## 🎯 Key Features Explained
-
-### Glassmorphic Design
-The portfolio uses a sophisticated glassmorphic design with:
-- Deep navy background (`#0a0f1e`)
-- Frosted glass cards with `backdrop-filter: blur()`
-- Cyan → Blue → Purple gradient accents
-- Subtle shadows and glow effects for depth
-
-### Responsive Typography
-- **Syne** — Bold, geometric display font for headings
-- **Inter** — Clean, readable sans-serif for body text
-- **JetBrains Mono** — Monospace font for code and metadata
-
-### Animation Strategy
-- Scroll-triggered animations using Framer Motion's `useInView`
-- Staggered animations for list items
-- Smooth transitions on hover and scroll
-- Performance-optimized with `once: true` for one-time animations
-
-### Accessibility
-- Semantic HTML structure
-- Keyboard-navigable links and buttons
-- High contrast text for readability
-- Focus rings for keyboard navigation
-
 ---
 
 **Last Updated:** March 2026
