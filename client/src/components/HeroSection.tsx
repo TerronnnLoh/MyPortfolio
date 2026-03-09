@@ -274,7 +274,7 @@ export default function HeroSection() {
                   <span className="text-white">{'{'}</span>
                   {`
 `}
-                  <span className="text-slate-500">{'  // DBS Bank — Internship'}</span>
+                  <span className="text-slate-500">{'  // Map<String, Object>'}</span>
                   {`
 `}
                   <span className="text-cyan-400">{'  @Autowired'}</span>
