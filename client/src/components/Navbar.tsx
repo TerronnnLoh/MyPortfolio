@@ -54,9 +54,19 @@ export default function Navbar() {
           onClick={(e) => { e.preventDefault(); handleNavClick("#hero"); }}
           className="flex items-center gap-2 group"
         >
-          <div className="w-8 h-8 rounded-lg flex items-center justify-center"
+          <div className="w-8 h-8 rounded-lg flex items-center justify-center p-0.5"
             style={{ background: "linear-gradient(135deg, #06b6d4, #3b82f6)" }}>
-            <Code2 size={16} className="text-white" />
+            {/* Personalized SVG Logo */}
+            <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <defs>
+                <linearGradient id="logo-gradient" x1="0" y1="0" x2="28" y2="28" gradientUnits="userSpaceOnUse">
+                  <stop stopColor="#06b6d4" />
+                  <stop offset="1" stopColor="#3b82f6" />
+                </linearGradient>
+              </defs>
+              <circle cx="14" cy="14" r="13" fill="url(#logo-gradient)" />
+              <text x="50%" y="54%" textAnchor="middle" dominantBaseline="middle" fontFamily="Syne, sans-serif" fontWeight="bold" fontSize="15" fill="#fff">T</text>
+            </svg>
           </div>
           <span className="font-bold text-white" style={{ fontFamily: "Syne, sans-serif", fontSize: "1rem" }}>
             <span className="gradient-text">Terron's Portfolio</span>
