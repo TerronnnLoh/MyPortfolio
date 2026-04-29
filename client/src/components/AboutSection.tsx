@@ -119,7 +119,7 @@ export default function AboutSection() {
                 <div className="flex items-center gap-3">
                   <div className="w-2 h-2 rounded-full bg-green-400 animate-pulse" />
                   <div>
-                    <div className="text-xs text-slate-400" style={{ fontFamily: "JetBrains Mono, monospace" }}>Currently at</div>
+                    <div className="text-xs text-slate-400" style={{ fontFamily: "JetBrains Mono, monospace" }}>1 Year Experience at</div>
                     <div className="text-sm font-semibold text-white" style={{ fontFamily: "Syne, sans-serif" }}>DBS Bank</div>
                   </div>
                 </div>
